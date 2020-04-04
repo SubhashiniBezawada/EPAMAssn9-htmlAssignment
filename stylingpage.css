@@ -1,0 +1,65 @@
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+.sign-up-form{
+
+width:300px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+background:#fff;
+padding:20px;
+margin:8% auto 0;
+text-align:center;
+
+}
+.hr-text{
+border: none;
+border-top: 3px double #333;
+overflow: visible;
+text-align:center;
+color: black;
+}
+hr:after {
+ background: #fff;
+content: 'OR';
+padding: 0 4px;
+position: relative;
+top: -13px;
+}
+.sign-up-form h2{
+color:#fff;
+margin-bottom:30px;
+background:#0786DF;
+}
+.input-box{
+padding:10px;
+margin:10px 0;
+width:100%;
+border:1px solid #999;
+outline:none;
+}
+button{
+color:#fff;
+width:100%;
+padding:10px;
+font-size:15px;
+margin:10px 0;
+outline:none;
+border:none;
+cursor:pointer;
+}
+.sign-in{
+background:#33E0FF;
+}
+.facebook{
+background:#083ED9;
+font-size:20px;
+}
+.gmail{
+background:#FB2E41;
+font-size:20px;
+}
+.epam{
+background:#FDFA2E;
+}
